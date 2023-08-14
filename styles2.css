@@ -11,6 +11,13 @@ h1, p {
 
 p {
     color: crimson;
+    text-decoration: underline;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Borel', cursive;
+    text-align: left;
 }
 
 li {
