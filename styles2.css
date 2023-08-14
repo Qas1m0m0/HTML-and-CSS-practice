@@ -1,8 +1,19 @@
-h1 {
+body {
+    background-image: url(smokebackground.jpg);
+    background-size: cover;
+}
+h1, p {
     color:slateblue;
     text-align: center;
+    border: 5px outset yellowgreen;
+    cursor: pointer;
 }
 
 p {
     color: crimson;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }

@@ -3,10 +3,11 @@ body {
     background-size: cover;
 }
 
-h1 {
+h1, p {
     color:aquamarine;
     text-align: center;
     border: 5px outset red;
+    cursor: crosshair;
 }
 
 p {
@@ -15,4 +16,17 @@ p {
 
 li {
     list-style: none;
+    display: inline-block;
+}
+
+.webtextone {
+    border: 10px dotted;
+}
+
+.webtexttwo {
+    border: 10px dashed yellow;
+}
+
+#wrap {
+    background-color: rgba(70, 130, 180, 0.5)
 }
