@@ -12,7 +12,7 @@ h1, p {
 p {
     color: crimson;
     text-decoration: underline;
-    line-height: 20px;
+    line-height: 50px;
     font-style: italic;
     font-weight: bold;
     font-size: 150%;
@@ -24,3 +24,15 @@ li {
     list-style: none;
     display: inline-block;
 }
+
+img{
+    float: right;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    text-align: center;         /* Footer height */
+  }
